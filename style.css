@@ -1,0 +1,292 @@
+body {
+    font-family: sans-serif;
+    background-color:rgb(104, 104, 175);
+}
+header{
+    background-color:rgb(0, 0, 92);
+    height:110px ;
+}
+.headerimg{
+   position: relative;
+   top:20px;
+   left: 20px;
+   float: left;
+   display: flex;
+   justify-content: space-around;
+}
+.headerp{
+   position: relative; 
+   top:30px;
+   left: 50px;
+   font-family: Inknut Antiqua;
+   font-size: 20px;
+   color: rgb(104, 104, 175);
+}
+nav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 80px;
+    height: 15px;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+
+}
+a:hover{
+    left: 0;
+}
+.ziferblat{
+    top:100px;
+    background-color:rgb(92, 92, 201);
+}
+.molodi{
+    top:150px;
+    background-color:blueviolet;
+}
+.maria_kondratenko{
+    top:200px;
+    background-color:rgb(0, 0, 92);
+}
+.khayat{
+    top:250px;
+    background-color:rgb(92, 92, 201);
+}
+.fiinka{
+    top:300px;
+    background-color:rgb(162, 162, 162);
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.ns{
+    padding: 5px;
+    background-color:rgb(92, 92, 201) ;
+    display: flex;
+    position: absolute;
+    top:45px;
+    left: 500px;
+    border-radius: 5px;
+}
+.e{
+    padding: 5px;
+    background-color:rgb(92, 92, 201) ;
+    position:absolute;
+    display: flex;
+    top:45px;
+    left: 600px;
+    border-radius: 5px;
+}
+
+.e:hover{
+    text-decoration: dotted;   
+    display: flex;
+    top:45px;
+    left: 600px;
+    background-color: blue;
+}
+.ns:hover{
+    background-color: blue;
+    text-decoration: dotted;   
+    display: flex;
+    top:45px;
+    left: 500px;
+}
+
+main p{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5px;
+    font-family:Inknut Antiqua  ;
+}
+.iz{
+    position: absolute;
+    top:200px;
+    left: 260px;
+}
+.ziferblat1{
+    position: relative;
+    left: 40px;
+    display: flex;
+}
+.iii{
+    display: block;
+    width: 300px;
+    margin: 25px;
+}
+
+
+.zimg{
+    display: flex;
+    width: 250px;
+    margin-top: 25px;
+}
+
+.mmm{
+    position: absolute;
+    top:200px;
+    left:30px;
+    display: block;
+    width: 300px;
+}
+
+p:hover{
+    color:rgb(0, 0, 92);
+    font-size: 18px;
+    box-shadow: 5px 5px 4px lightyellow;
+}
+
+.iz{
+    position:absolute;
+   top:200px;
+   left: 350px; 
+}
+.molodi1{
+    position: absolute;
+    top:600px;
+    left: 40px;
+}
+.maria_kondratenko1{
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+}
+.khayat1{
+    position: absolute;
+    top: 1400px;  
+}
+.fiinka1{
+   position: absolute;
+    top: 1800px;  
+}
+
+.mimg{
+    position: absolute;
+    left:360px ;
+
+}
+.mtext{
+     position: absolute;
+     left:40px ;
+     top:50px;
+     width: 250px;
+}
+.mtext2{
+    position: absolute;
+    left: 40px;
+    top: 250px;
+    width: 250px;
+}
+.aaa{
+    position: absolute;
+    top:250px;
+    left: 360px;
+}
+.mktext{
+ position: absolute; 
+ left: 40pxpx;  
+ top: 50px;
+}
+.mkimg{
+    position: absolute;
+    top:50px;
+    left: 360px;
+}
+.rrr{
+    position: absolute;
+    left: 360px;
+    top:230px;
+}
+.mktext2{
+    position: absolute;
+    top:250px;
+}
+header a:hover{
+    text-decoration: dotted;
+    border-radius: 30%;
+    background-color:rgb(104, 104, 175) ;
+}
+
+footer{
+    position:absolute;
+    background-color:rgb(0, 0, 92);
+    top:2250px;
+    width:100%;
+    height: 100px;
+
+}
+
+.next{
+    margin-top: 20px;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: 0;
+    background-color:rgb(104, 104, 175) ;
+    position: absolute;
+    top:10px;
+    left:460px ;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.next:hover{
+    border: 5px dotted aliceblue;
+    background-color: blueviolet;
+    position: absolute;
+    top:10px;
+    left:460px ;
+}
+
+
+.khimg{
+    position: absolute;
+    left: 400px;
+}
+
+.ttt{
+    position: absolute;
+    top:250px;
+    left: 400px;
+}
+
+.khtext{
+    position: absolute;
+    left: 40px;
+    display: flex;
+}
+
+.khtext2{
+    position:absolute;
+    top:250px;
+    left: 40px;
+}
+
+.eee{
+    position: absolute;
+    left:400px;
+    top: 60px;
+}
+.ooo{
+    position:absolute ;
+    top: 250px;
+    left: 400px;
+}
+.ftext{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.ftext2{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+section h2{
+    margin-left: 40px;
+}
